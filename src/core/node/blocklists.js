@@ -12,8 +12,8 @@ import * as envutil from "../../commons/envutil.js";
 import * as cfg from "../../core/cfg.js";
 
 const blocklistsDir = "./blocklists__";
-const tdFile = "td.txt";
-const rdFile = "rd.txt";
+const tdFile = "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt";
+const rdFile = "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt";
 
 export async function setup(bw) {
   if (!bw || !envutil.hasDisk()) return false;
